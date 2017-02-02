@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GameDB.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="appListUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://api.steampowered.com/ISteamApps/GetAppList/v0002/</Value>
+    </Setting>
+    <Setting Name="connString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=(LocalDB)\MSSQLLocalDB; AttachDbFilename=|DataDirectory|\GameDB.mdf; Integrated Security=True; Connect Timeout=30;</Value>
+    </Setting>
+    <Setting Name="appsFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">~/App_Data/steamapps.txt</Value>
+    </Setting>
+    <Setting Name="appDetailsUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://store.steampowered.com/api/appdetails?appids={0}&amp;&amp;cc=us</Value>
+    </Setting>
+    <Setting Name="metaRefreshFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">15; url = /Game/MineRange/{0}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
