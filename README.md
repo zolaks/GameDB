@@ -3,7 +3,7 @@ GameDB is a tool to store Steam detailed application list to a local database.
 
 ## How it works?
 
-1. Browse /Game/GetList to store the entire list of application ids into local text file for later use.
+1. Browse /Game/GetList to store the entire list of application ids into the local text file for later use.
 2. Browse /Game/StoreList to store application ids and names into the local database that are extracted from the local text file.
 3. Browse /Game/MineRange/0 to start mining game details 10 by 10.
 
