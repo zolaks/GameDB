@@ -1,5 +1,5 @@
 # GameDB
-GameDB is tool to store Steam detailed application list to a local database.
+GameDB is a tool to store Steam detailed application list to a local database.
 
 ## How it works?
 
